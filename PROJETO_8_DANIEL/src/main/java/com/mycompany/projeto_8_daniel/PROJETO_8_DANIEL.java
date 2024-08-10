@@ -38,15 +38,15 @@ public class PROJETO_8_DANIEL {
             System.out.print("O desempenho foi otimo");
                     
         }
-        else if (ouro >5 && ouro <=10){
-            System.out.print("O desempenho foi bom");
+        else if (ouro >=5 && performance >30){
+            System.out.print("O desempenho foi extraordinario");
             
         }
         else if (ouro < 5 && performance > 20){
             System.out.print("Desempenho regular");
         }
-        else if(ouro > 5 && performance > 30){
-            System.out.print("Desempenho extraordianrio");
+        else if(ouro >= 5){
+            System.out.print("Desempenho bom");
         }
         else{
             System.out.print("Desempenho fraco");
